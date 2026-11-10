@@ -1,0 +1,10 @@
+# 가상환경 / 캐시
+.venv/
+__pycache__/
+*.pyc
+
+# 받은 ultralytics 소스 (용량이 크고 PyPI로 설치 가능)
+ultralytics-src/
+
+# 모델 가중치 (실행 시 자동 다운로드)
+*.pt

@@ -1,0 +1,20 @@
+[project]
+name = "yolo-detection"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "torchvision",
+    "ultralytics",
+    "opencv-python",
+]
+
+# CUDA 12.8 빌드 PyTorch (RTX 50 시리즈 지원)
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+torchvision = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true

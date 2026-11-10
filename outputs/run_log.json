@@ -1,0 +1,26 @@
+[
+  {
+    "time": "2026-11-10 16:31:48",
+    "model": "yolo11n.pt",
+    "device": "cuda",
+    "conf_threshold": 0.25,
+    "review_threshold": 0.5,
+    "source": "bus.jpg",
+    "output_image": "bus_annotated.jpg",
+    "detections": 5,
+    "no_detection": false,
+    "needs_review_count": 0
+  },
+  {
+    "time": "2026-11-10 16:32:11",
+    "model": "yolo11n.pt",
+    "device": "cuda",
+    "conf_threshold": 0.25,
+    "review_threshold": 0.5,
+    "source": "zidane.jpg",
+    "output_image": "zidane_annotated.jpg",
+    "detections": 3,
+    "no_detection": false,
+    "needs_review_count": 1
+  }
+]

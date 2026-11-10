@@ -1,0 +1,9 @@
+﻿source,class,confidence,x1,y1,x2,y2,needs_review
+bus.jpg,bus,0.94,3.8,229.4,796.2,728.4,아니오
+bus.jpg,person,0.888,671.0,394.9,809.8,878.7,아니오
+bus.jpg,person,0.878,47.4,399.6,239.3,904.2,아니오
+bus.jpg,person,0.856,223.1,408.7,344.5,860.4,아니오
+bus.jpg,person,0.622,0.0,556.1,68.9,872.4,아니오
+zidane.jpg,person,0.84,748.5,41.8,1148.1,711.1,아니오
+zidane.jpg,person,0.779,148.6,203.1,1125.3,715.0,아니오
+zidane.jpg,tie,0.453,361.4,437.7,524.7,717.3,예
